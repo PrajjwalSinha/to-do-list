@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="menu">
+            <button id="showTasks">Show Tasks</button>
+            <button id="showRecords">Show Records</button>
+        </div>
+        <div id="taskSection">
+            <input type="text" id="newTaskInput" placeholder="Enter a new task">
+            <input type="datetime-local" id="taskDateTime">
+            <button id="addTaskButton">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+        <div id="recordSection" style="display: none;">
+            <h2>Records</h2>
+            <ul id="recordList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
